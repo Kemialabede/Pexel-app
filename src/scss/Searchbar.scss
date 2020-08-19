@@ -1,0 +1,27 @@
+.search-bar {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  input {
+    width: 85%;
+    height: 40px;
+    border-style: none;
+    outline: none;
+    font-size: 24px;
+  }
+  .search-icon {
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  &:hover {
+    color: rgb(156, 206, 76);
+  }
+}

@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    background-color: rgb(206, 155, 15);
+    margin: auto;
+    justify-content: center;
+    padding: 15px;
+    li {
+        display: flex;
+        list-style: none;
+        padding: 5px;
+
+        span {
+            padding: 18px;
+            border: 2px solid black;
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            border-right-style: 1px solid black;
+            border-radius: 10px;
+        }
+        &:hover {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+        }
+    }
+}
